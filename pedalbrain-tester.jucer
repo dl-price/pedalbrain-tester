@@ -5,11 +5,11 @@
               jucerVersion="4.3.0">
   <MAINGROUP id="imRqeQ" name="pedalbrain-tester">
     <GROUP id="{14E4BC00-0ED2-2603-B2FB-3871760ADB44}" name="Source">
-      <GROUP id="{AD9ADEBC-6B65-12EB-FD0D-DA68C7EB95E9}" name="common">
-        <FILE id="uNBt1Z" name="includes.h" compile="0" resource="0" file="common/includes.h"/>
-        <FILE id="L2wE4F" name="PBController.cpp" compile="1" resource="0"
-              file="common/PBController.cpp"/>
-        <FILE id="NwHgGm" name="PBController.h" compile="0" resource="0" file="common/PBController.h"/>
+      <GROUP id="{AD9ADEBC-6B65-12EB-FD0D-DA68C7EB95E9}" name="pedalbrain">
+        <FILE id="thrYHm" name="includes.h" compile="0" resource="0" file="pedalbrain/includes.h"/>
+        <FILE id="WTa9PL" name="PBController.cpp" compile="1" resource="0"
+              file="pedalbrain/PBController.cpp"/>
+        <FILE id="Uee0Up" name="PBController.h" compile="0" resource="0" file="pedalbrain/PBController.h"/>
       </GROUP>
       <FILE id="BT3Vyo" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
