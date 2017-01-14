@@ -101,6 +101,7 @@
 		0E9403836D88C39EA8520407 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_ThreadPool.cpp"; path = "../../../../../../../Applications/JUCE/modules/juce_core/threads/juce_ThreadPool.cpp"; sourceTree = "SOURCE_ROOT"; };
 		0E9529352215BCB9D6534654 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_IIRFilter.h"; path = "../../../../../../../Applications/JUCE/modules/juce_audio_basics/effects/juce_IIRFilter.h"; sourceTree = "SOURCE_ROOT"; };
 		0EA4A3581361EB35FB2BF62C = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_LuaCodeTokeniser.h"; path = "../../../../../../../Applications/JUCE/modules/juce_gui_extra/code_editor/juce_LuaCodeTokeniser.h"; sourceTree = "SOURCE_ROOT"; };
+		0EC8DAED2B88AA8B71C13FB9 = {isa = PBXFileReference; lastKnownFileType = file.ino; name = pedalbrain.ino; path = ../../pedalbrain/pedalbrain.ino; sourceTree = "SOURCE_ROOT"; };
 		0F08B87CB8291712D9D8F0D0 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "juce_UndoableAction.h"; path = "../../../../../../../Applications/JUCE/modules/juce_data_structures/undomanager/juce_UndoableAction.h"; sourceTree = "SOURCE_ROOT"; };
 		0F12A264065674BBC4D1B1F2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_WavAudioFormat.cpp"; path = "../../../../../../../Applications/JUCE/modules/juce_audio_formats/codecs/juce_WavAudioFormat.cpp"; sourceTree = "SOURCE_ROOT"; };
 		0F4E1B35D4FF59B060C6797F = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "juce_GraphicsContext.cpp"; path = "../../../../../../../Applications/JUCE/modules/juce_graphics/contexts/juce_GraphicsContext.cpp"; sourceTree = "SOURCE_ROOT"; };
@@ -1201,7 +1202,8 @@
 		60524E650723555BE40B63F3 = {isa = PBXGroup; children = (
 					374F587DD7D3DC92AC5A3B9F,
 					C25A7CF45F581C001A1A574A,
-					1D25333E4FC677928424D1FD, ); name = pedalbrain; sourceTree = "<group>"; };
+					1D25333E4FC677928424D1FD,
+					0EC8DAED2B88AA8B71C13FB9, ); name = pedalbrain; sourceTree = "<group>"; };
 		A9A4A613A10828E3E5E65CCA = {isa = PBXGroup; children = (
 					60524E650723555BE40B63F3,
 					648CFAB95FAAF804E700A7E8,

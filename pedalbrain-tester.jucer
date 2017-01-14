@@ -10,6 +10,7 @@
         <FILE id="WTa9PL" name="PBController.cpp" compile="1" resource="0"
               file="pedalbrain/PBController.cpp"/>
         <FILE id="Uee0Up" name="PBController.h" compile="0" resource="0" file="pedalbrain/PBController.h"/>
+        <FILE id="Ti6mSO" name="pedalbrain.ino" compile="0" resource="0" file="pedalbrain/pedalbrain.ino"/>
       </GROUP>
       <FILE id="BT3Vyo" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
