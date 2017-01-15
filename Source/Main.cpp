@@ -10,6 +10,7 @@
 
 #include "../JuceLibraryCode/JuceHeader.h"
 #include "MainComponent.h"
+#include "../pedalbrain/PBController.h"
 
 
 //==============================================================================
@@ -28,6 +29,7 @@ public:
     {
         // This method is where you should put your application's initialisation code..
 
+        PBController::setup();
         mainWindow = new MainWindow (getApplicationName());
     }
 
