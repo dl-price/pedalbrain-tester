@@ -29,7 +29,7 @@ public:
     {
         // This method is where you should put your application's initialisation code..
 
-        PBController::setup();
+        PBController::getInstance()->setup();
         mainWindow = new MainWindow (getApplicationName());
     }
 
